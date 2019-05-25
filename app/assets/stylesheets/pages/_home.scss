@@ -1,1 +1,61 @@
-// Specific CSS for your home-page
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+  i {
+    margin-bottom: 20px;
+    color: $leaf-green;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    color: $leaf-green;
+  }
+}
+
+.gray-text-color {
+  color: $gray-text;
+  opacity: .8;
+}
+
+.call-to-action {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.description {
+  margin-bottom: 50px;
+}
+
+.adjust-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adjust-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.field-size {
+  width: 400px;
+  margin-right: 10px;
+
+}
+
+.message-size {
+  width: 400px;
+  height: 146px;
+  margin-left: 10px;
+
+}
+

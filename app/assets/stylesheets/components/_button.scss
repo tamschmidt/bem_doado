@@ -1,0 +1,26 @@
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $vivid-lime-green;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: $lime-green;
+  color: white;
+}
+
+
+.btn-form {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $leaf-green;
+  transition: background 0.3s ease;
+}
+
+.btn-form:hover {
+  background: $dark-leaf-green;
+  color: white;
+}

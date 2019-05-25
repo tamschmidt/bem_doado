@@ -1,0 +1,100 @@
+.contact-form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  color: white;
+  text-align: left;
+}
+
+form > input {
+  width: 400px;
+}
+
+form > button {
+  float: right;
+  background: $leaf-green;
+}
+
+.section_contact {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.section_contact i {
+  padding-right: 10px;
+}
+
+.section_contact a {
+  text-decoration: none;
+  color: $leaf-green;
+}
+
+.section_contact ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.adjust-contact {
+  margin-top: 50px;
+}
+
+
+.contact-header{
+  color: white;
+  margin-top: -40px;
+}
+
+
+.form-adjust {
+  width: 400px;
+  text-align: left;
+  color: white;
+  margin: 0;
+  justify-content: center;
+}
+
+.links-style {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.links-style:hover {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+
+}
+
+
+.contact-info p {
+  margin-right: 15px;
+ }
+
+.contact-content {
+  display: flex;
+  align-items: center;
+ }
+
+.contact-person {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 4px;
+
+}
+
+
+.table-style {
+  background-color: white;
+
+}
+
+.fa-seedling {
+  color: white;
+}
