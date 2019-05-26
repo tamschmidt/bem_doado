@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  skip_before_action :authenticate_user!, only: %i[new create]
+  skip_before_action :authenticate_user!, only: %i[new create show]
 
   def index
     @contacts = Contact.all
@@ -17,6 +17,9 @@ class ContactsController < ApplicationController
     else
       render :new
     end
+  end
+
+  def show
   end
 
   private
